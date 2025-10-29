@@ -1,0 +1,86 @@
+.create-project-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.create-card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 450px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.create-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.subtext {
+  color: #777;
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create-form input,
+.create-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.create-form textarea {
+  resize: none;
+  height: 100px;
+}
+
+.create-form input:focus,
+.create-form textarea:focus {
+  border-color: #74ebd5;
+  box-shadow: 0 0 6px rgba(116, 235, 213, 0.6);
+  outline: none;
+}
+
+.submit-btn {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: white;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(90deg, #764ba2, #667eea);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

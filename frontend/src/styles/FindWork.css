@@ -1,0 +1,239 @@
+.findwork-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  padding: 60px 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.findwork-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.findwork-header h1 {
+  font-size: 2.5rem;
+  color: #0a1f44;
+  font-weight: 700;
+}
+
+.findwork-header p {
+  color: #333;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* ✅ Fixed: Side-by-side card grid */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  justify-content: center;
+  align-items: start;
+}
+
+.project-box {
+  background: white;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  border-top: 5px solid #007bff;
+}
+
+.project-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.project-box h2 {
+  font-size: 1.3rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.desc {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  min-height: 60px;
+}
+
+.skills {
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background: #e3f2fd;
+  color: #0d47a1;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin: 3px;
+  transition: 0.3s;
+}
+
+.tag:hover {
+  background: #bbdefb;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.price {
+  font-weight: 600;
+  color: #0d47a1;
+}
+
+.apply {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.apply:hover {
+  background: linear-gradient(135deg, #0056b3, #003f88);
+  transform: scale(1.05);
+}
+
+.findwork-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f9ff, #cbebff);
+  padding: 60px 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.findwork-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.findwork-header h1 {
+  font-size: 2.6rem;
+  color: #0a1f44;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.findwork-header p {
+  color: #333;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* ✅ Beautiful Grid Layout */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 35px;
+  justify-content: center;
+  align-items: start;
+}
+
+/* 🎨 Modern Project Cards */
+.project-box {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease;
+  border-top: 5px solid #007bff;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ✨ Hover Glow Effect */
+.project-box:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 30px rgba(0, 123, 255, 0.3);
+}
+
+/* Smooth gradient line at the top */
+.project-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(90deg, #007bff, #00d4ff);
+}
+
+/* 🧠 Content Styling */
+.project-box h2 {
+  font-size: 1.4rem;
+  color: #007bff;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.desc {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  min-height: 60px;
+}
+
+.skills {
+  margin-bottom: 12px;
+}
+
+/* Skill tags */
+.tag {
+  display: inline-block;
+  background: #e3f2fd;
+  color: #0d47a1;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin: 4px 4px 0 0;
+  transition: 0.3s;
+}
+
+.tag:hover {
+  background: #bbdefb;
+  transform: scale(1.1);
+}
+
+/* Bottom section */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.price {
+  font-weight: 600;
+  color: #0d47a1;
+  font-size: 1rem;
+}
+
+/* Apply Now button */
+.apply {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.apply:hover {
+  background: linear-gradient(135deg, #0056b3, #004080);
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+}
